@@ -6,16 +6,16 @@ import com.sun.net.httpserver.HttpHandler;
 import java.io.IOException;
 import java.io.OutputStream;
 
-<span class="nc" id="L9">public class PingHandler implements HttpHandler {</span>
+<span class="fc" id="L9">public class PingHandler implements HttpHandler {</span>
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-<span class="nc" id="L13">        String body = &quot;OK&quot;;</span>
-<span class="nc" id="L14">        exchange.sendResponseHeaders(200, body.length());</span>
-<span class="nc" id="L15">        try (OutputStream os = exchange.getResponseBody()) {</span>
-<span class="nc" id="L16">            os.write(body.getBytes());</span>
+<span class="fc" id="L13">        String body = &quot;OK&quot;;</span>
+<span class="fc" id="L14">        exchange.sendResponseHeaders(200, body.length());</span>
+<span class="fc" id="L15">        try (OutputStream os = exchange.getResponseBody()) {</span>
+<span class="fc" id="L16">            os.write(body.getBytes());</span>
         }
-<span class="nc" id="L18">        exchange.close();</span>
-<span class="nc" id="L19">    }</span>
+<span class="fc" id="L18">        exchange.close();</span>
+<span class="fc" id="L19">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

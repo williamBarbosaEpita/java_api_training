@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 maven_training,fr.lernejo,Sample,0,32,0,4,0,5,0,5,0,3
 maven_training,fr.lernejo,Sample.Operation,0,39,0,0,0,6,0,4,0,4
-maven_training,fr.lernejo.navy_battle,PingHandler,21,0,0,0,7,0,2,0,2,0
-maven_training,fr.lernejo.navy_battle,Launcher,46,0,2,0,13,0,4,0,3,0
+maven_training,fr.lernejo.navy_battle,PingHandler,0,21,0,0,0,7,0,2,0,2
+maven_training,fr.lernejo.navy_battle,Launcher,4,35,1,1,2,10,2,2,1,2
