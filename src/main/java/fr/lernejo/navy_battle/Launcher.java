@@ -1,6 +1,7 @@
-package fr.navy_battle;
-import com.sun.net.httpserver.HttpServer;
+package fr.lernejo.navy_battle;
 import fr.lernejo.PingHandler;
+
+import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
