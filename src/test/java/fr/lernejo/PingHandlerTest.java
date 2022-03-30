@@ -24,9 +24,9 @@ class LauncherTest {
 
         HttpClient httpClient = HttpClient.newHttpClient();
         URL url = new URL("http://localhost:9876/ping");
-        HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.setRequestMethod("GET");
-        int status = con.getResponseCode();
+        HttpURLConnection httpurlcon = (HttpURLConnection) url.openConnection();
+        httpurlcon.setRequestMethod("GET");
+        int status = httpurlcon.getResponseCode();
         Assertions.assertEquals(status, 200);
     }
 }
